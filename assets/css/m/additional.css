@@ -1,0 +1,56 @@
+/*CSS Mobile*/
+.display-mobile{
+    display : none;
+}
+.header-mobile{
+    width:100%;
+        padding: 0px 60px 0px 60px;
+    font-size : 0px;
+}
+
+.header-mobile .header-mobile-left{
+    width : 10%;
+    display : inline-block;
+    vertical-align : middle
+}
+
+.header-mobile .header-mobile-center{
+    /*width : 80%;
+    text-align : center;
+    display : inline-block;
+    vertical-align : middle;*/
+    width: 80%;
+    text-align: right;
+    float: right;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 23px;
+}
+
+.header-mobile .header-mobile-center img{
+    margin : 0px auto;
+    width : 100%;
+    max-width : 200px;
+}
+
+.header-mobile .header-mobile-right{
+    width : 10%;
+    display : inline-block;
+    vertical-align : middle;
+    clear : both;
+}
+
+.header-mobile .header-mobile-right img{
+    width :100%;
+    max-width : 40px;
+    float : right;
+}
+
+@media screen and (max-width: 767px) {
+   .hidden-mobile{
+       display : none;
+   }
+   .display-mobile{
+       display : block;
+   }
+}

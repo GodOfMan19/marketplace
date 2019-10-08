@@ -1,0 +1,494 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,500|Rubik:500,700");
+
+
+body {
+  line-height: 26px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  color: #000000; }
+
+@media only screen and (max-width: 992px) {
+
+ .backgorund {
+		position: absolute;
+		width: 1942.145px;
+		height: 1614.079px;
+		left: -22.321px;
+		top: -5.753px;
+		--web-view-name: Web 1920 – 18;
+		--web-view-id: Web_1920___18;
+		--web-enable-deep-linking: true;
+		--web-view-ids: Web_1920___18;
+	}
+
+}
+.column {
+  float: left;
+  width: 200px;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar-custom {
+    background-color: #800000;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .dropdown-menu {
+    background-color: #ff5500;
+}
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255,255,255,.5);
+}
+.promo-group{
+		position: absolute;
+		overflow: visible;
+		top: 629px;
+		left: 11px;
+		width: 1263px;
+		height: 253px;
+		background: #F1F1F1 0% 0% no-repeat padding-box;
+		border: 1px solid #DBDBDB;
+		opacity: 1;
+		padding: 10px;
+}
+.promo1{
+		position: absolute;
+		overflow: visible;
+		top: 6px;
+		left: 41px;
+		width: 316px;
+		height: 316px;
+		background: transparent url('img/1.png') 0% 0% no-repeat padding-box;
+		opacity: 1;
+		padding: 10px;
+}
+
+.bayar-form{
+		position: absolute;
+		overflow: visible;
+		top: 285px;
+		left: 120px;
+		width: 155px;
+		height: 61px;
+		background-color:#FFF0;
+		border-radius: 46px;
+		opacity: 0px;
+		padding: 15px;
+}
+.rp{
+		position: absolute;
+		overflow: visible;
+		top: 214px;
+		left: 15px;
+		width: 241px;
+		height: 62px;
+		text-align: left;
+		font: Regular 31px/39px Source Sans Pro;
+		letter-spacing: 0;
+		color: black;
+		opacity: 1;
+}
+.nominal{
+		position: absolute;
+		overflow: visible;
+		top: 455px;
+		left: 1356px;
+		width: 71px;
+		height: 25px;
+		text-align: left;
+		font-family: : Regular 20px/25px Source Sans Pro;
+		letter-spacing: 0;
+		color: #650621;
+		opacity: 0.42;
+
+	}
+.nom-form{
+		position: absolute;
+		overflow: visible;
+		top: 153px;
+		left: -5px;
+		width: 409px;
+		height: 54px;
+		background: #FFF0 0% 0% no-repeat padding-box;
+		border: 0px solid #800000;
+		border-radius: 15px;
+		opacity: 1;
+		padding: 15px;	
+	}
+.harga-form{
+		position: absolute;
+		overflow: visible;
+		top: 215px;
+		left: 95px;
+		width: 355px;
+		height: 55px;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		border: 2px solid #800000;
+		border-radius: 15px;
+		opacity: 1;
+		padding: 15px;
+	}
+
+.header-pulsa {
+	position: absolute;
+	overflow: visible;
+	width: 768px;
+	height: 768px;
+	left: 34px;
+	top: 255px;
+	--web-view-name: Web 1920 – 8;
+	--web-view-id: Web_1920___8;
+	--web-enable-deep-linking: true;
+	--web-view-ids: Web_1920___8;
+}
+.header-banner {
+	position: absolute;
+	overflow: visible;
+	width: 768px;
+	height: 768px;
+	left: 489px;
+	top: 200px;
+	--web-view-name: Web 1920 – 8;
+	--web-view-id: Web_1920___8;
+	--web-enable-deep-linking: true;
+	--web-view-ids: Web_1920___8;
+}
+
+ .logo {
+	position: absolute;
+	overflow: visible;
+	width: 197px;
+	height: 50px;
+	left: -126px;
+	top: -21px;	 
+ }
+ 	.button-search{
+ 		position: absolute;
+ 		overflow: visible;
+ 		top: 26px;
+		left: 710px;
+		width: 77px;
+		height: 45px;
+		background: #800000 0% 0% no-repeat padding-box;
+		border: 2px solid #FFFFFF;
+		border-radius: 12px;
+		opacity: 1;
+ 	}
+ 	@media screen(max-width: 1080px;){
+
+ 	}
+    .from-search {
+		position: absolute;
+		overflow: visible;
+		width: 429px;
+		height: 47px;
+		left: 278px;
+		top: 25px;
+		font-size: 14px;
+		font-family: 'Lato';
+		background-color: white;
+		border: 2px solid #800000;
+		border-radius: 13px;
+		color: #800000;
+		padding:15px;
+
+	}
+	.icon-search{
+			position: absolute;
+			overflow: visible;
+			top: 12px;
+			left: 26px;
+			width: 17px;
+			height: 18px;
+			opacity: 1;
+	}
+
+	.button-login {
+		position: absolute;
+		overflow: visible;
+		width: 100px;
+		height: 45px;
+		left: 934px;
+		top: 26px;
+		font-size: 14px;
+		font-family: 'Lato';
+		background-color: white;
+		border: 2px solid #800000;
+		border-radius: 13px;
+		color: #800000;
+		padding:7px;
+	}
+
+	.button-daftar {
+		position: absolute;
+		overflow: visible;
+		width: 100px;
+		height: 45px;
+		left: 827px;
+		top: 26px;
+		font-size: 14px;
+		font-family: 'Lato';
+		background-color: #800000;
+		border: 2px solid white;
+		border-radius: 13px;
+		color: white;
+		padding: 7px;
+		text-align: center;
+	}
+	.notification {
+		position: absolute;
+		overflow: visible;
+		width: 28px;
+		height: 32px;
+		left: 1136px;
+		top: 31px;
+	}	
+	.cart {
+		position: absolute;
+		overflow: visible;
+		width: 30px;
+		height: 32px;
+		left: 1082px;
+		top: 32px;
+	}	
+	.account {
+		position: absolute;
+		width: 36px;
+		height: 38px;
+		left: 1184px;
+		top: 29px;
+		overflow: visible;
+	}
+
+
+	/*Pulsa Group Start Here*/
+
+	.Pulsa-grup {
+		position: absolute;
+		overflow: visible;
+		width: 410px;
+		height: 346px;
+		left: 45px;
+		top: 152px;
+		border: 1px solid #eff2f6;
+		border-radius: 40px 40px 40px 0px;
+		transition-duration: 800ms;
+		margin-bottom: 30px;
+	}
+
+	.pulsa {
+		position: absolute;
+		left: 8.5px;
+		top: 0px;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: white;
+		opacity: 0.5;
+	}
+	.bg-opacity{
+		position: absolute;
+		background: absolute;
+		left: 38px;
+		top: -45px;
+		height: 376px;
+		width:427px;
+		border-radius: 12px;
+		background-color: #86838366;
+		padding: 25px;
+		border: 10px;
+	}
+	.paket-data {
+		position: absolute;
+		left: 87px;
+		top: 0px;
+		overflow: visible;
+		width: 90px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color:white;
+	}
+
+	.e-money {
+		position: absolute;
+		left: 339px;
+		top: 0px;
+		overflow: visible;
+		width: 73px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: white;
+	}
+	.pln-listrik{
+		position: absolute;
+		left: 207px;
+		top: 0px;
+		overflow: visible;
+		width: 114px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: white;
+	}
+
+	.line-selector {
+			overflow: visible;
+			position: absolute;
+			top: 19px;
+			left: 0px;
+			width: 69px;
+			height: 2px;
+			background-color: white;
+		
+	}
+	.banner{
+		position: absolute;
+		overflow: visible;
+		width: 740px;
+		height: 346px;
+		left: 537px;
+		top: 112px;
+		border: 1px solid #eff2f6;
+		border-radius: 40px 40px 40px 0px;
+		transition-duration: 800ms;
+		margin-bottom: 30px;
+	}
+
+
+	/*su Form pulsa - Form Input Number etc */
+
+	.input-number {
+		position: absolute;
+		overflow: visible;
+		width: 407px;
+		height: 55px;
+		left: -1.5px;
+		top:91px;
+		font-family: 'lato';
+		font-size:14px;
+		color: black;
+		background-color:#FFF0; 
+		border: 0px solid #800000;
+		border-radius: 13px;
+		padding: 15px;
+
+	}
+	.input-rp{
+		position: absolute;
+		overflow: visible;
+		width: 326px;
+		height: 55px;
+		left: 52.5px;
+		top:217px;
+		font-family: 'lato';
+		font-size:14px;
+		color: #808080;
+		background-color: #fff0; 
+		border: 0px solid #800000;
+		border-radius: 13px;
+		padding: 15px;
+	}
+	.line-pulsa{
+		position: absolute;
+		overflow: visible;
+		top: 118px;
+		left: 14px;
+		width: 349px;
+		height: 1px;
+		background-color: #808080;
+	}
+	.line-nominal{
+		position: absolute;
+		overflow: visible;
+		top: 182px;
+		left: 14px;
+		width: 349px;
+		height: 1px;
+		background-color: #808080;
+	}
+	.rp{
+		position: absolute;
+		overflow: visible;
+		top: 220px;
+		left: 10px;
+		width: 0px;
+		height: 100px;
+
+	}
+	.line-rp{
+		position: absolute;
+		overflow: visible;
+		top: 242px;
+		left: 61px;
+		width: 303px;
+		height: 1px;
+		background-color: #808080;
+
+	}
+	
+	/* slider */
+	.slider{
+		position: inherit;
+		top: 100px;
+		left: 478px;
+		width: 1130px;
+		height: 538px;
+	}

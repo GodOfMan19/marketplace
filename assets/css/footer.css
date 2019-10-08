@@ -1,0 +1,15 @@
+.l-row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.l-footer{
+    padding: 8px !important;
+}
+
+.l-bgfooter{
+    background-color: #F1F1F1;
+    border: 1px solId #cecece;
+    padding: 23px;
+    text-align: center;
+}

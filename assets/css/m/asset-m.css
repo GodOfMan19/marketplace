@@ -1,0 +1,430 @@
+div {
+    font-family: Helvetica Neue Bold !important;
+}
+
+body {
+    font-family: Helvetica Neue !important;
+    overflow-x: hidden;
+}
+
+a {
+    font-family: Helvetica Neue Bold !important;
+}
+
+
+span {
+    font-family: Helvetica Neue Bold !important;
+}
+
+input {
+    font-family: Helvetica Neue Bold !important;
+}
+
+.m-navbar-default{
+	background: #800000 !important;
+}
+
+.m-header-nav{
+position: relative !important;
+    background-color: #800000 !important;
+    padding: 27px 10px 58px 10px !important;
+    height: 65px !important;
+}
+
+.header-nav .logo-head .main-logo {
+width: 145px !important;
+    margin-top: -26px !important;
+}
+
+
+.m-dropdown{
+    margin-left: -111px !important;
+    font-size: 25px !important;
+    color: #fff !important;
+}
+
+.m-menu{
+    margin-top: -8px !important;
+}
+
+#txtSearch{
+	border-radius: 10px !important;
+    margin-left: -6px !important;
+    height: 42px !important;
+    margin-top: -6px !important;
+}
+
+#btnSearch{
+    border-radius: 10px !important;
+    height: 41px !important;
+    margin-top: -6px !important;
+    background: none !important;
+    border: 1px solid #fff !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 17px !important;
+}
+
+#btnSearch:hover{
+    border-radius: 10px !important;
+    height: 41px !important;
+    margin-top: -6px !important;
+    background-color: #fff !important;
+    color:#840808 !important;
+    border: 1px solid #fff !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 17px !important;
+}
+
+#btnSearch:focus{
+    border-radius: 10px !important;
+    height: 41px !important;
+    margin-top: -6px !important;
+    background-color: #fff !important;
+    color:#840808 !important;
+    border: 1px solid #fff !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 17px !important;
+}
+
+.m-login-btn{
+    border: 1px solid #fff !important;
+    color:#fff !important;
+    border-radius: 10px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.m-login-btn:hover{
+	background-color: #fff !important;
+    border: 1px solid #fff !important;
+    color:#800000 !important;
+    border-radius: 10px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.m-login-btn:focus{
+	background-color: #fff !important;
+    border: 1px solid #fff !important;
+    color:#800000 !important;
+    border-radius: 10px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.m-col-new{
+    margin-left: -75px !important;
+    margin-top: -3px !important;
+}
+
+.m-col-new1{
+    margin-left: 33px !important;
+    margin-top: 5px !important;
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+
+	.hidden-mobile{
+		display: none !important;
+	}
+	.display-mobile{
+		display: block !important;
+        margin-top: -59px;
+	}
+
+    .nav-tabs>li>a {
+        margin-right: 2px !important;
+        line-height: 1.428571429 !important;
+        border: 0px solid transparent !important;
+        font-size: 40px;
+        border-radius: 4px 4px 0 0 !important;
+    }
+
+    .input-topUp{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .input-rupiah{
+        font-size: 30px;
+    }
+
+    .m-text-rupiah{
+        font-size: 30px;
+        top: 7px;
+    }
+
+    .m-btn-topUp {
+        background: linear-gradient(90deg, rgba(128,0,0,1) 0%, rgba(210,48,48,1) 100%) !important;
+        color: #fff !important;
+        padding: 30px 45px 30px 45px !important;
+        border: 0px solid #800000 !important;
+        border-radius: 15px !important;
+        font-size: 30px !important;
+        margin-top: 25px;
+    }
+
+    .m-radio-listrik {
+        transform: scale(2.6) !important;
+    }
+
+    .m-text-listrik{
+        font-size: 30px;
+        padding-left: 17px;
+    }
+
+    .input-space-topUp{
+        padding-top: 20px;
+        padding-bottom: 67px !important;
+    }
+
+    .m-item-text span{
+        font-size: 30px !important;
+    }
+
+    .m-foot-hidden-batas{
+        display: block !important;
+    }
+
+    .judul-produk-home-1{
+        font-size: 30px !important;
+        color: #800000 !important;
+    }
+
+}
+
+@media (min-width: 768px){
+	.login-mobile-re{
+	 	margin-left: 20px !important;
+	}
+}
+
+@media (min-width: 1920px){
+	.login-mobile-re{
+	 	margin-left: -20px !important;
+	}
+}
+
+@media (min-width: 1024px) {
+	.m-cat-bars{
+        font-size: 19px !important;
+        margin-left: 27px !important;
+        margin-top: 4px !important;
+	}
+}
+
+@media (min-width: 1680px) {
+	.m-cat-bars{
+		font-size: 23px !important;
+	    margin-left: 5px  !important;
+	    margin-top: 0px !important;
+	}
+}
+
+
+.m-icon-btn{
+    border: 0px solid #fff !important;
+    color:#fff !important;
+        font-size: 26px !important;
+    border-radius: 10px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.m-icon-btn:hover{
+	background-color: #fff !important;
+    border: 0px solid #fff !important;
+        font-size: 26px !important;
+    color:#800000 !important;
+    border-radius: 10px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.m-icon-btn:focus{
+	background-color: #fff !important;
+	font-size: 26px !important;
+    border: 0px solid #fff !important;
+    color:#800000 !important;
+    border-radius: 10px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+.uk-parent a{
+    border-bottom: 1px solid #F2F2F2 !important;
+}
+
+.m-fa-chevron-right{
+    float: right !important;
+    margin: 8px !important;
+}
+
+.m-dropdown-menu{
+    top: 66px !important;
+}
+
+
+.uk-nav-sub{
+    background-color: #fff !important;
+}
+
+.m-uk-nav-sub{
+    padding: 0px 0px 0px 12px !important;
+    margin-top: -10px !important;
+}
+
+.m-img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: -39px !important;
+}
+
+.m-uk-parent{
+    margin-top: -15px !important;
+}
+
+.m-mobile-menu{
+    background-color: #fff;
+    font-size: 32px !important;
+}
+
+.m-hover-mobile-menu:hover{
+    background-color: #800000 !important;
+    color:#fff !important;
+}
+
+.m-hover-mobile-menu:focus{
+    background-color: #800000 !important;
+    color:#fff !important;
+}
+
+.m-img-responsive-slide{
+    min-width: 100% !important;
+}
+
+.m-konten{
+    margin-top: 36px;
+}
+
+.m-row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+#m-txtSearch-mobile{
+    border-radius: 10px !important;
+    margin-left: -6px !important;
+    height: 79px !important;
+    font-size: 38px;
+    margin-top: 3px !important;
+}
+
+#m-btnSearch-mobile{
+    border-radius: 10px !important;
+    height: 77px !important;
+    margin-top: 0px !important;
+    background: none !important;
+    border: 1px solid #fff !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 38px !important;
+}
+
+
+.m-banner2{
+    padding: 8px !important;
+}
+
+.m-bgbanner2{
+    background-color: #F1F1F1;
+    border: 1px solId #cecece;
+    padding: 23px;
+    text-align: center;
+}
+
+.input-topUp{
+    border-top: 0px solid #000;
+    border-left: 0px solid #000;
+    border-right: 0px solid #000;
+    border-bottom: 1px solid #878787;
+    width: 100%;
+}
+
+.input-topUp:focus{
+    border-top: 0px solid #000 !important;
+    border-left: 0px solid #000 !important;
+    border-right: 0px solid #000 !important;
+    border-bottom: 1px solid #878787;
+    width: 100%;
+}
+
+.input-space-topUp{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-space-topUp{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.m-btn-topUp{
+    background: linear-gradient(90deg, rgba(128,0,0,1) 0%, rgba(210,48,48,1) 100%);
+    color: #fff;
+    padding: 7px 15px 7px 15px;
+    border: 0px solid #800000;
+    border-radius: 10px;
+}
+
+.m-radio-listrik{
+    transform: scale(1.5);
+}
+
+.m-item-text span{
+    font-size: 20px;
+}
+
+.m-foot-hidden-batas{
+    display: none;
+}
+
+.m-produk{
+    padding: 50px;
+}
+
+.judul-produk-home-1{
+    font-size: 20px;
+    color: #800000;
+}
+
+.view-all-barang{
+    font-size: 20px;
+    background-color: #800000;
+    color: #fff;
+    padding: 8px 20px 8px 20px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgba(128,0,0,1) 0%, rgba(210,48,48,1) 100%);
+}
+
+.view-all-barang:hover{
+    font-size: 20px;
+    background-color: #800000;
+    color: #fff;
+    padding: 8px 20px 8px 20px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgba(128,0,0,1) 0%, rgba(210,48,48,1) 100%);
+}
+
+.view-all-barang:focus{
+    font-size: 10px;
+    background-color: #800000;
+    color: #fff;
+    padding: 8px 20px 8px 20px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgba(128,0,0,1) 0%, rgba(210,48,48,1) 100%);
+}

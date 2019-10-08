@@ -1,0 +1,43 @@
+@media only screen and (max-width: 480px) {
+    .product-shop .description {
+        white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+        white-space: -webkit-pre-wrap; /*Chrome & Safari */ 
+        white-space: -pre-wrap;      /* Opera 4-6 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        white-space: pre-wrap;       /* css-3 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+        white-space: normal;
+    }
+    .logo-mobile {
+        background-size:160px auto;
+    }
+    div.breadcrumb.visible-xs {
+        -webkit-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -ms-box-orient: horizontal;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: flex;
+    }
+    /*
+    --------------------------------------------------------------
+    ENQUIRY FORM STYLE
+    --------------------------------------------------------------
+    */
+    .form-enquery .enquiry-product-name a {
+        font-size: 1.2em;
+    }
+    .form-enquery .enquiry-product-description {
+        font-size:1em;
+        margin:8px auto;
+    }
+    .form-enquery .h4 {
+        line-height: auto;
+        font-size: 1em;
+        text-align: justify;
+        margin-bottom:15px;
+    }
+}
